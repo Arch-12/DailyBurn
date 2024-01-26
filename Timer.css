@@ -1,0 +1,16 @@
+/* Timer.css */
+
+.timer-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+

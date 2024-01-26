@@ -1,0 +1,86 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  background: url('C:\Users\archa\OneDrive\Documents\Desktop\health\frontend\myapp\public\images\pic.jpg') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.registration-form {
+  width: 80%;
+  max-width: 400px;
+  margin: 2% auto; /* Adjust the top margin to move the form higher on the page */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #1a1919;
+}
+
+/* Add this style to your existing styles in Register.css */
+.registration-form .name-fields,
+.registration-form .credential-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.registration-form .name-field,
+.registration-form .credential-field {
+  flex: 1;
+}
+
+
+/* Rest of your existing styles */
+
+
+  .registration-form form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .registration-form label {
+    margin-bottom: 5px;
+    
+  }
+
+  .registration-form input,
+  .registration-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .registration-form button {
+    padding: 15px;
+    background-color: #212528;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .registration-form button:hover {
+    background-color: #4b4d54;
+  }
+
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .login-link button {
+    padding: 10px;
+    background-color: #111011;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-link button:hover {
+    background-color: #3c3d3d;
+  };

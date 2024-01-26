@@ -1,0 +1,48 @@
+.workout-timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 80px; /* Adjust this value based on your navbar height */
+    background: rgba(0, 0, 0, 0.5) url('C:\Users\archa\OneDrive\Documents\Desktop\health\frontend\myapp\public\images\pexels-cats-coming-707582.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  
+  .workout-timer-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
